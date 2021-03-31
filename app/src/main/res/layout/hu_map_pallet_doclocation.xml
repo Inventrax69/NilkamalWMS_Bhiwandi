@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp">
 
-            <com.inventrax.athome.util.CustomEditText
+            <com.inventrax.nilkamal_biwandhi.util.CustomEditText
                 android:id="@+id/etVLPD"
                 style="@style/editTextStyleSmall"
                 android:layout_width="match_parent"
@@ -190,7 +190,7 @@
                     android:layout_weight="1"
                     android:layout_gravity="center_vertical">
 
-                    <com.inventrax.athome.util.CustomEditText
+                    <com.inventrax.nilkamal_biwandhi.util.CustomEditText
                         android:id="@+id/etDock"
                         style="@style/editTextStyleSmall"
                         android:layout_width="match_parent"
@@ -207,7 +207,7 @@
                     android:layout_weight="1"
                     android:layout_gravity="center_vertical">
 
-                    <com.inventrax.athome.util.CustomEditText
+                    <com.inventrax.nilkamal_biwandhi.util.CustomEditText
                         android:id="@+id/etPallet"
                         style="@style/editTextStyleSmall"
                         android:layout_width="match_parent"

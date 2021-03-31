@@ -21,7 +21,7 @@
             android:orientation="vertical"
             android:weightSum="8.7">
 
-            <com.inventrax.athome.searchableSpinner.SearchableSpinner
+            <com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner
                 android:id="@+id/spinnerStrorageLoc"
                 style="@style/Base.Widget.AppCompat.Spinner.Underlined"
                 android:layout_width="match_parent"

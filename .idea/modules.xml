@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NilkamalWMS_Bhiwandi.iml" filepath="$PROJECT_DIR$/NilkamalWMS_Bhiwandi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NilkamalWMS_Bhiwandi.iml" filepath="$PROJECT_DIR$/NilkamalWMS_Bhiwandi.iml" group="NilkamalWMS_Bhiwandi" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="NilkamalWMS_Bhiwandi/app" />
     </modules>
   </component>
 </project>

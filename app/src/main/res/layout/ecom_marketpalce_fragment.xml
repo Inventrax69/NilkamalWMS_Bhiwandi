@@ -35,14 +35,14 @@
 
             </TextView>
 
-            <com.inventrax.athome.searchableSpinner.SearchableSpinner
+            <com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner
                 android:id="@+id/spinnerRSNPrinter"
                 style="@style/Widget.AppCompat.Spinner.Underlined"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginTop="5dp">
 
-            </com.inventrax.athome.searchableSpinner.SearchableSpinner>
+            </com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner>
 
             <TextView
                 style="@style/textViewStyle"
@@ -54,14 +54,14 @@
 
             </TextView>
 
-            <com.inventrax.athome.searchableSpinner.SearchableSpinner
+            <com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner
                 android:id="@+id/spinnerShippingLabelPrinter"
                 style="@style/Widget.AppCompat.Spinner.Underlined"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginTop="5dp">
 
-            </com.inventrax.athome.searchableSpinner.SearchableSpinner>
+            </com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner>
 
             <TextView
                 style="@style/textViewStyle"
@@ -73,14 +73,14 @@
 
             </TextView>
 
-            <com.inventrax.athome.searchableSpinner.SearchableSpinner
+            <com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner
                 android:id="@+id/spinnerNilkamalInvoicePinter"
                 style="@style/Widget.AppCompat.Spinner.Underlined"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginTop="5dp">
 
-            </com.inventrax.athome.searchableSpinner.SearchableSpinner>
+            </com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner>
 
             <TextView
                 style="@style/textViewStyle"
@@ -90,7 +90,7 @@
                 android:text="@string/group_vlpd_number">
             </TextView>
 
-            <com.inventrax.athome.util.CustomEditText
+            <com.inventrax.nilkamal_biwandhi.util.CustomEditText
                 android:id="@+id/etVlpdNo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

@@ -30,7 +30,7 @@
 
         </TextView>
 
-        <com.inventrax.athome.searchableSpinner.SearchableSpinner
+        <com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner
             android:id="@+id/spinnerSelectStRef"
             style="@style/Widget.AppCompat.Spinner.Underlined"
             android:layout_width="match_parent"
@@ -39,7 +39,7 @@
             android:layout_below="@+id/tvSelectStRef"
             android:layout_alignParentLeft="true">
 
-        </com.inventrax.athome.searchableSpinner.SearchableSpinner>
+        </com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner>
 
         <Button
             android:id="@+id/btnGo"
@@ -638,7 +638,7 @@
 
         </TextView>
 
-        <com.inventrax.athome.searchableSpinner.SearchableSpinner
+        <com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner
             android:id="@+id/spinnerSelectPalletType"
             style="@style/Widget.AppCompat.Spinner.Underlined"
             android:layout_width="match_parent"
@@ -647,7 +647,7 @@
             android:layout_below="@+id/tvSelectPalletType"
             android:layout_alignParentLeft="true">
 
-        </com.inventrax.athome.searchableSpinner.SearchableSpinner>
+        </com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner>
 
         <Button
             android:id="@+id/btnConfirmPallet"

@@ -8,11 +8,11 @@ android {
         abortOnError false
     }
     defaultConfig {
-        applicationId "com.inventrax.athome"
+        applicationId "com.inventrax.nilkamal_biwandhi"
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 23
-        versionName "3.4"
+        versionCode 1
+        versionName "1.0.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
     }

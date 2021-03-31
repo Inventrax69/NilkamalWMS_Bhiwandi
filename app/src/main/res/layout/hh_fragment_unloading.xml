@@ -23,19 +23,21 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginTop="10dp"
-            android:text="@string/selectStRef">
+            android:text="@string/selectStRef"
+            android:layout_alignParentLeft="true">
 
         </TextView>
 
-        <com.inventrax.athome.searchableSpinner.SearchableSpinner
+        <com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner
             android:id="@+id/spinnerSelectStRef"
             style="@style/Widget.AppCompat.Spinner.Underlined"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/tvSelectStRef">
+            android:layout_below="@+id/tvSelectStRef"
+            android:layout_alignParentLeft="true">
 
-        </com.inventrax.athome.searchableSpinner.SearchableSpinner>
+        </com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner>
 
         <Button
             android:id="@+id/btnGo"

@@ -28,15 +28,16 @@
 
         </TextView>
 
-        <com.inventrax.athome.searchableSpinner.SearchableSpinner
+        <com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner
             android:id="@+id/spinnerSelectDivision"
             style="@style/Widget.AppCompat.Spinner.Underlined"
             android:layout_width="100dp"
             android:layout_height="45dp"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentTop="true">
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true">
 
-        </com.inventrax.athome.searchableSpinner.SearchableSpinner>
+        </com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner>
 
 
         <ImageView
@@ -81,7 +82,8 @@
             android:drawablePadding="@dimen/activity_login_padding_left"
             android:hint="@string/userHint"
             android:inputType="textEmailAddress"
-            android:singleLine="true" />
+            android:singleLine="true"
+            android:layout_alignParentLeft="true" />
 
         <EditText
             android:id="@+id/etPass"
@@ -171,5 +173,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="20dp"
         android:layout_marginEnd="30dp"
-        android:background="@drawable/settings" />
+        android:background="@drawable/settings"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp" />
 </RelativeLayout>

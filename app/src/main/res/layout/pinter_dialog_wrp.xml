@@ -17,7 +17,7 @@
         android:text="Select the printer" />
 
 
-    <com.inventrax.athome.searchableSpinner.SearchableSpinner
+    <com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner
         android:id="@+id/spinnerSelectReason"
         style="@style/Widget.AppCompat.Spinner.Underlined"
         android:layout_width="match_parent"
@@ -26,7 +26,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true">
 
-    </com.inventrax.athome.searchableSpinner.SearchableSpinner>
+    </com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner>
 
     <RadioGroup
         android:id="@+id/radioGroup"

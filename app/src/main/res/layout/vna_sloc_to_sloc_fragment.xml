@@ -424,7 +424,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1">
 
-                    <com.inventrax.athome.util.CustomEditText
+                    <com.inventrax.nilkamal_biwandhi.util.CustomEditText
                         android:id="@+id/etFromPallet"
                         style="@style/editTextStyleSmall"
                         android:layout_width="match_parent"
@@ -442,7 +442,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1">
 
-                    <com.inventrax.athome.util.CustomEditText
+                    <com.inventrax.nilkamal_biwandhi.util.CustomEditText
                         android:id="@+id/etToPallet"
                         style="@style/editTextStyleSmall"
                         android:layout_width="match_parent"
@@ -460,7 +460,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1">
 
-                    <com.inventrax.athome.util.CustomEditText
+                    <com.inventrax.nilkamal_biwandhi.util.CustomEditText
                         android:id="@+id/etQty"
                         style="@style/editTextStyleSmall"
                         android:layout_width="match_parent"
@@ -567,7 +567,7 @@
                 android:layout_marginTop="15dp"
                 android:textStyle="normal"/>
 
-            <com.inventrax.athome.searchableSpinner.SearchableSpinner
+            <com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner
                 android:id="@+id/spinnerSelectReason"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
@@ -693,7 +693,7 @@
             android:layout_below="@+id/tvScanOldRsn"
             android:layout_marginTop="15dp">
 
-            <com.inventrax.athome.util.CustomEditText
+            <com.inventrax.nilkamal_biwandhi.util.CustomEditText
                 android:id="@+id/etOldRsn"
                 style="@style/editTextStyleSmall"
                 android:layout_width="155dp"
@@ -711,7 +711,7 @@
             android:layout_below="@+id/tvScanOldRsn"
             android:layout_marginTop="15dp">
 
-            <com.inventrax.athome.util.CustomEditText
+            <com.inventrax.nilkamal_biwandhi.util.CustomEditText
                 android:id="@+id/etNewRsn"
                 style="@style/editTextStyleSmall"
                 android:layout_width="155dp"
@@ -729,7 +729,7 @@
             android:layout_below="@+id/txtInputLayoutOldRsn"
             android:layout_marginTop="5dp">
 
-            <com.inventrax.athome.util.CustomEditText
+            <com.inventrax.nilkamal_biwandhi.util.CustomEditText
                 android:id="@+id/etQtyPrint"
                 style="@style/editTextStyleSmall"
                 android:layout_width="155dp"
@@ -747,7 +747,7 @@
             android:layout_below="@+id/txtInputLayoutNewRsn"
             android:layout_marginTop="5dp">
 
-            <com.inventrax.athome.util.CustomEditText
+            <com.inventrax.nilkamal_biwandhi.util.CustomEditText
                 android:id="@+id/etPrinterIP"
                 style="@style/editTextStyleSmall"
                 android:layout_width="155dp"

@@ -31,7 +31,7 @@
 
         </TextView>
 
-        <com.inventrax.athome.searchableSpinner.SearchableSpinner
+        <com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner
             android:id="@+id/spinnerSelectStRef"
             style="@style/Widget.AppCompat.Spinner.Underlined"
             android:layout_width="match_parent"
@@ -40,7 +40,7 @@
             android:layout_below="@+id/tvSelectStRef"
             android:layout_alignParentLeft="true">
 
-        </com.inventrax.athome.searchableSpinner.SearchableSpinner>
+        </com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner>
 
         <Button
             android:id="@+id/btnGo"
@@ -122,7 +122,9 @@
             android:layout_alignTop="@+id/cvScanPallet"
             app:cardBackgroundColor="@color/locationColor"
             app:cardCornerRadius="22.5dp"
-            app:cardElevation="0dp">
+            app:cardElevation="0dp"
+            android:layout_marginLeft="35dp"
+            android:layout_alignParentLeft="true">
 
             <ImageView
                 android:id="@+id/ivScanLocation"
@@ -164,7 +166,9 @@
             android:layout_marginEnd="30dp"
             app:cardBackgroundColor="@color/skuColor"
             app:cardCornerRadius="22.5dp"
-            app:cardElevation="0dp">
+            app:cardElevation="0dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp">
 
             <ImageView
                 android:id="@+id/ivScanSku"
@@ -205,7 +209,8 @@
             android:text="@string/scanRSN"
             android:textColor="@color/black"
             android:textSize="12sp"
-            android:textStyle="normal" />
+            android:textStyle="normal"
+            android:layout_alignLeft="@+id/cvScanSku" />
 
         <TextView
             android:id="@+id/lblScannedSku"
@@ -292,10 +297,11 @@
             android:layout_below="@+id/txtInputLayoutPallet"
             android:layout_alignStart="@+id/txtInputLayoutPallet"
             android:alpha="0.7"
-            android:text="@string/sloc" />
+            android:text="@string/sloc"
+            android:layout_alignLeft="@+id/txtInputLayoutPallet" />
 
 
-        <com.inventrax.athome.searchableSpinner.SearchableSpinner
+        <com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner
             android:id="@+id/spinnerSelectSloc"
             style="@style/Widget.AppCompat.Spinner.Underlined"
             android:layout_width="155dp"
@@ -304,7 +310,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true">
 
-        </com.inventrax.athome.searchableSpinner.SearchableSpinner>
+        </com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner>
 
 
         <android.support.design.widget.TextInputLayout
@@ -358,7 +364,8 @@
             android:elevation="30dp"
             android:text="@string/closePallet"
             android:textAllCaps="false"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true" />
 
         <Button
             android:id="@+id/btnExport"
@@ -372,7 +379,8 @@
             android:elevation="30dp"
             android:text="@string/export"
             android:textAllCaps="false"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            android:layout_alignParentLeft="true" />
 
         <Button
             android:id="@+id/btnClear"

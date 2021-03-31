@@ -34,7 +34,7 @@
 
         </TextView>
 
-        <com.inventrax.athome.searchableSpinner.SearchableSpinner
+        <com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner
             android:id="@+id/spinnerSelectVLPDNo"
             style="@style/Widget.AppCompat.Spinner.Underlined"
             android:layout_width="match_parent"
@@ -43,7 +43,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true">
 
-        </com.inventrax.athome.searchableSpinner.SearchableSpinner>
+        </com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner>
 
         <Button
             android:id="@+id/btnGo"

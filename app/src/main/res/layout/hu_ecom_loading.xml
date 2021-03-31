@@ -30,7 +30,7 @@
 
         </TextView>
 
-        <com.inventrax.athome.searchableSpinner.SearchableSpinner
+        <com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner
             android:id="@+id/spinnerSelectStRef"
             style="@style/Widget.AppCompat.Spinner.Underlined"
             android:layout_width="match_parent"
@@ -39,7 +39,7 @@
             android:layout_below="@+id/tvSelectStRefNo"
             android:layout_alignParentLeft="true">
 
-        </com.inventrax.athome.searchableSpinner.SearchableSpinner>
+        </com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner>
 
         <Button
             android:id="@+id/btnStart"
@@ -212,7 +212,7 @@
             android:layout_marginTop="10dp"
             >
 
-            <com.inventrax.athome.util.CustomEditText
+            <com.inventrax.nilkamal_biwandhi.util.CustomEditText
                 android:id="@+id/etQty"
                 style="@style/editTextStyleSmall"
                 android:layout_width="match_parent"

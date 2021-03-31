@@ -25,7 +25,7 @@
             android:layout_marginTop="10dp"
             >
 
-            <com.inventrax.athome.util.CustomEditText
+            <com.inventrax.nilkamal_biwandhi.util.CustomEditText
                 android:id="@+id/etVLPD"
                 style="@style/editTextStyleSmall"
                 android:layout_width="match_parent"
@@ -71,7 +71,7 @@
         android:layout_below="@+id/rlSelectReason"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:visibility="gone">
+        android:visibility="visible">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -442,7 +442,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1">
 
-                    <com.inventrax.athome.util.CustomEditText
+                    <com.inventrax.nilkamal_biwandhi.util.CustomEditText
                         android:id="@+id/etPallet"
                         style="@style/editTextStyleSmall"
                         android:layout_width="match_parent"
@@ -458,7 +458,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1">
 
-                    <com.inventrax.athome.util.CustomEditText
+                    <com.inventrax.nilkamal_biwandhi.util.CustomEditText
                         android:id="@+id/etQty"
                         style="@style/editTextStyleSmall"
                         android:layout_width="match_parent"
@@ -562,7 +562,7 @@
                 android:layout_marginTop="15dp"
                 android:textStyle="normal"/>
 
-            <com.inventrax.athome.searchableSpinner.SearchableSpinner
+            <com.inventrax.nilkamal_biwandhi.searchableSpinner.SearchableSpinner
                 android:id="@+id/spinnerSelectReason"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
@@ -618,7 +618,9 @@
             android:layout_marginTop="15dp"
             app:cardBackgroundColor="@color/locationColor"
             app:cardCornerRadius="22.5dp"
-            app:cardElevation="0dp">
+            app:cardElevation="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="70dp">
 
             <ImageView
                 android:id="@+id/ivScanOldRsn"
@@ -659,7 +661,9 @@
             android:text="@string/old_rsn"
             android:textColor="@color/black"
             android:textSize="12sp"
-            android:textStyle="normal" />
+            android:textStyle="normal"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="59dp" />
 
         <TextView
             android:id="@+id/tvScanNewRsn"
@@ -671,7 +675,9 @@
             android:text="@string/new_rsn"
             android:textColor="@color/black"
             android:textSize="12sp"
-            android:textStyle="normal" />
+            android:textStyle="normal"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="62dp" />
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/txtInputLayoutOldRsn"
@@ -681,7 +687,7 @@
             android:layout_below="@+id/tvScanOldRsn"
             android:layout_marginTop="15dp">
 
-            <com.inventrax.athome.util.CustomEditText
+            <com.inventrax.nilkamal_biwandhi.util.CustomEditText
                 android:id="@+id/etOldRsn"
                 style="@style/editTextStyleSmall"
                 android:layout_width="155dp"
@@ -699,7 +705,7 @@
             android:layout_below="@+id/tvScanOldRsn"
             android:layout_marginTop="15dp">
 
-            <com.inventrax.athome.util.CustomEditText
+            <com.inventrax.nilkamal_biwandhi.util.CustomEditText
                 android:id="@+id/etNewRsn"
                 style="@style/editTextStyleSmall"
                 android:layout_width="155dp"
@@ -717,7 +723,7 @@
             android:layout_below="@+id/txtInputLayoutOldRsn"
             android:layout_marginTop="5dp">
 
-            <com.inventrax.athome.util.CustomEditText
+            <com.inventrax.nilkamal_biwandhi.util.CustomEditText
                 android:id="@+id/etQtyPrint"
                 style="@style/editTextStyleSmall"
                 android:layout_width="155dp"
@@ -735,7 +741,7 @@
             android:layout_below="@+id/txtInputLayoutNewRsn"
             android:layout_marginTop="5dp">
 
-            <com.inventrax.athome.util.CustomEditText
+            <com.inventrax.nilkamal_biwandhi.util.CustomEditText
                 android:id="@+id/etPrinterIP"
                 style="@style/editTextStyleSmall"
                 android:layout_width="155dp"
